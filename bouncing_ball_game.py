@@ -1,4 +1,3 @@
-# The png wasn't being found so I had to use a direct path to the image. You will need to change that path.
 
 import pygame
 from pygame.locals import *
