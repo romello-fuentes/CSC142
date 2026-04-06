@@ -1,6 +1,3 @@
-# The png wasn't being foiund so I had to use a direct path to the image. You will need to change that path.
-
-
 
 import pygame
 import sys
@@ -36,7 +33,7 @@ class Ball():
         self.window = window # remember the window, so we can draw later
         self.windowWidth = windowWidth
         self.windowHeight = windowHeight
-        self.image = pygame.image.load('SOLO CODES/ball.png')
+        self.image = pygame.image.load('images/ball.png')
 # A rect is made up of [x, y, width, height]
         self.ballRect = self.image.get_rect()
         self.width = self.ballRect.width
