@@ -1,5 +1,5 @@
 import pygame
-from pygame.locals import 
+from pygame.locals import *
 import sys
 import random
 import time
